@@ -3,11 +3,7 @@
 
 html, body {
 	background:#eaeaea url(../img/bg.png) repeat;
-	font-size:12px;
-	font-family:"Open Sans", serif;
-	margin:0;
-	padding:0;
-	color:#aaa;
+
 }
 
 .content h1 {
@@ -27,7 +23,6 @@ html, body {
 /* CONTENT SLIDER */
 #content-slider {
 	width:100%;
-	height: 100vh;
 	margin:0px auto 0;
 }
 /* SLIDER */
@@ -253,6 +248,35 @@ ul.social-menu li a i.fa-vk:hover::after {
 		transform: scale(1);
 		border-radius: 5px;
 	}
+}
+article.about {
+	height: 100vh;
+	background-color: #005cbf;
+	padding: 10%;
+}
+.title-about {
+	text-align: center;
+	font-size:40px;
+	font-family:"Open Sans", serif;
+	margin-bottom:20px;
+	padding: 30px;
+	color:#ffffff;
+}
+.tagline-about {
+	text-align: center;
+	font-size:25px;
+	font-family:"Open Sans", serif;
+	margin-bottom:20px;
+	padding: 15px;
+	color:#ffffff;
+}
+.description-about {
+	text-align: center;
+	font-size:20px;
+	font-family:"Open Sans", serif;
+	margin-bottom:20px;
+	padding:0;
+	color:#ffffff;
 }
 
 
