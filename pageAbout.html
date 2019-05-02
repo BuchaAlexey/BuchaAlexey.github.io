@@ -1,25 +1,75 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <link rel="stylesheet" href="css/style1.css">
+    <link rel="stylesheet" href="css/pageAbout.css">
+    <link rel="stylesheet" href="css/bootstrap-grid.min.css">
+    <link rel="stylesheet" href="css/bootstrap-reboot.min.css">
+    <link rel="stylesheet" href="css/bootstrap.min.css">
     <meta charset="UTF-8">
-    <title>Title</title>
+    <title>О нашей компании</title>
 </head>
 <body>
 
+<header class=" navbar navbar-expand-lg navbar-light " style="background-color: #e3f2fd;">
+    <a class="navbar-brand" href="index.html">Главная</a>
+    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent"
+            aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+    </button>
+
+    <div class="collapse navbar-collapse" id="navbarSupportedContent">
+        <ul class="navbar-nav mr-auto">
+            <li class="nav-item dropdown">
+                <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown1" role="button" data-toggle="dropdown"
+                   aria-haspopup="true" aria-expanded="false">
+                    Автопарк
+                </a>
+                <div class="dropdown-menu" aria-labelledby="navbarDropdown1">
+                    <a class="dropdown-item" href="gallery.html">Жёлтая Iveco Daily 35c13v(19 мест)</a>
+                    <a class="dropdown-item" href="gallery.html">Белая Iveco Daily 35c13v(19 мест)</a>
+                    <div class="dropdown-divider"></div>
+                    <a class="dropdown-item" href="gallery.html">Синий Ford Transit (16 мест)</a>
+                </div>
+            </li>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link" href="pageAbout.html">О нас</a>
+            </li>
+            <li class="nav-item dropdown">
+                <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown"
+                   aria-haspopup="true" aria-expanded="false">
+                    Услуги
+                </a>
+                <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+                    <a class="dropdown-item" href="#">Перевозки по РБ</a>
+                    <a class="dropdown-item" href="#">Микроавтобус на свадьбы</a>
+                    <a class="dropdown-item" href="#">Доставка сотрудников</a>
+                    <a class="dropdown-item" href="#">Экскурсии</a>
+                    <a class="dropdown-item" href="#">Микроавтобус на похороны</a>
+                    <div class="dropdown-divider"></div>
+                    <a class="dropdown-item" href="#">Поздки за границу</a>
+                </div>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link" href="#">Контакты</a>
+            </li>
+        </ul>
+    </div>
+</header>
+
+<div class="semiopacity">
 <section>
-    <p class="text size"><b> Челночные перевозки с заботой о вас
-        Челночные перевозки — то, что вы ищете? Мы к вашим услугам. Компания «Пассажирские перевозки» и ее команда
+    <h3 class="title-about"> Пассажирские с заботой о вас
+        Пассажирские перевозки — то, что вы ищете? Мы к вашим услугам. Компания «ЛидБучТранс» и ее команда
         профессионалов доступны в любое время. Мы стремимся не просто соответствовать вашим ожиданиям, но превосходить
         их. Компания «ЛидБучТрас» предоставляет транспортное обслуживание в г. Лида и за его пределами. С
-        2000 г. наша компания стремится быть лучшей в своей сфере.</b></p>
-    <p> Достоинства пассажирских перевозок: </p>
+        2000 г. наша компания стремится быть лучшей в своей сфере.</h3>
+    <h5 class="tagline-about"> Достоинства пассажирских перевозок:
     Транспортные компании осуществляют деятельность в соответствии с законами,
     специалисты неукоснительно соблюдают график техобслуживания, администрация обеспечивает
     контроль за состоянием здоровья водителей. Документальное оформление каждого рейса – правило,
-    обеспечивающее защиту законных интересов пассажиров. Автобусы соответствуют основным требованиям потребителей:
-
-    <ul>
+    обеспечивающее защиту законных интересов пассажиров. Автобусы соответствуют основным требованиям потребителей:</h5>
+    <ul class="description-about">
         <li > демократичные цены;
         </li>
         <li > удобство транспортировки багажа;
@@ -29,9 +79,17 @@
         <li>возможность беспрерывно поддерживать связь с близкими людьми (телефоны, интернет)</li>
         <li>стоимость билетов соответствует среднестатистическим доходам граждан</li>
         <li>цены соответствуют качеству услуг, необоснованное повышение цен исключено.</li>
-
     </ul>
 </section>
-
+</div>
+<script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
+        integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"
+        crossorigin="anonymous"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.6/umd/popper.min.js"
+        integrity="sha384-wHAiFfRlMFy6i5SRaxvfOCifBUQy1xHdJ/yoi7FRNXMRBu5WHdZYu1hA6ZOblgut"
+        crossorigin="anonymous"></script>
+<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.2.1/js/bootstrap.min.js"
+        integrity="sha384-B0UglyR+jN6CkvvICOB2joaf5I4l3gm9GU6Hc1og6Ls7i6U/mkkaduKaBhlAXv9k"
+        crossorigin="anonymous"></script>
 </body>
 </html>
