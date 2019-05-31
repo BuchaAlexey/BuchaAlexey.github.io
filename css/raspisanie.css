@@ -1,0 +1,24 @@
+html, body
+{
+    margin: 0;
+    padding: 0;
+    width: 100%;
+    height: 100%;
+    font-family: 'Roboto Slab', serif;
+    text-align: center;
+    background-image: url("zastavka4.jpg");
+    background-size: 100%;
+    object-fit: cover;
+}
+.semiopacity {
+    padding: 50px; /* Поля вокруг текста */
+
+}
+table {
+    opacity: 0.8;
+    background: navy; /* Цвет фона таблицы */
+    color: white;
+}
+td {
+    background: black; /* Цвет фона ячеек */
+}
