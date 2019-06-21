@@ -1,4 +1,4 @@
-<!DOCTYPE html>
+﻿<!DOCTYPE html>
 <html>
     
 	<head>
@@ -16,7 +16,7 @@
     
     <body>
     <header class=" navbar navbar-expand-lg navbar-light " style="background-color: #e3f2fd;">
-        <a class="navbar-brand" href="index.html">Главная</a>
+        <a class="navbar-brand" href="index.php">Главная</a>
         <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent"
                 aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
             <span class="navbar-toggler-icon"></span>
@@ -60,6 +60,9 @@
                 </li>
                 <li class="nav-item">
                     <a class="nav-link" href="raspisanie.html">Расписание маршрута</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="team.html">Наша команда</a>
                 </li>
             </ul>
         </div>
